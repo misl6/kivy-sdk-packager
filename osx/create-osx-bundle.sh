@@ -36,6 +36,7 @@ APP_ORG="org.kivy.osxlauncher"
 ICON_PATH="data/icon.icns"
 APP_SCRIPT="data/script"
 
+
 while [[ "$#" -gt 0 ]]; do
     # empty arg?
     if [ -z "$2" ]; then
