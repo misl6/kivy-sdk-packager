@@ -30,9 +30,9 @@ arm64_set_path_and_python_version(){
 }
 
 install_platypus() {
-  download_cache_curl "platypus5.3.zip" "osx-cache" "https://github.com/sveinbjornt/Platypus/releases/download/5.3"
+  download_cache_curl "platypus5.4.zip" "osx-cache" "https://github.com/sveinbjornt/Platypus/releases/download/v5.4"
 
-  unzip "platypus5.3.zip"
+  unzip "platypus5.4.zip"
   gunzip Platypus.app/Contents/Resources/platypus_clt.gz
   gunzip Platypus.app/Contents/Resources/ScriptExec.gz
 
