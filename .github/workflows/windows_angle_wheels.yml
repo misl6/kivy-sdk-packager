@@ -21,7 +21,7 @@ env:
 
 jobs:
   prepare_angle:
-    runs-on: windows-latest
+    runs-on: windows-2022
     env:
       DEPOT_TOOLS_WIN_TOOLCHAIN: 0
     steps:
@@ -45,7 +45,7 @@ jobs:
 
 
   windows_wheels:
-    runs-on: windows-latest
+    runs-on: windows-2022
     needs: prepare_angle
     strategy:
       fail-fast: false
